@@ -1,0 +1,87 @@
+.resident{
+    width: 100%;
+    max-width: 16em;
+    border-radius: 0.8em;
+    overflow: hidden;
+    background-color: #083b52;
+    background-color: #062127;
+    position: relative;
+    color: white;
+    transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.resident:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1.5em #0008;
+}
+
+.resident__status{
+    position: absolute;
+    top: 8%;
+    background-color: #084851;
+    background-color: #062127;
+    width: 35%;
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+    padding: 0.4em 0.6em;
+    border-radius: 0 0.6em 0.6em 0;
+}
+
+.resitent__status-circle{
+    background-color: #999;
+    width: 0.7em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Dead{
+    background-color: rgb(199, 2, 2);
+}
+
+.Alive{
+    background-color: rgb(4, 187, 4);
+}
+
+.unknown{
+    background-color: #777;
+}
+
+.resident__status-value{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.resident__body{
+    padding: 1em 1em 2em;
+}
+
+.resident__name{
+    text-align: center;
+}
+
+.resident__hr{
+    margin-bottom: 0.8em;
+    margin-top: 0.8em;
+    border-color: #7774;
+}
+
+.resident__stats{
+    display: grid;
+    gap: 0.6em;
+
+}
+
+.resident__stat-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.resident__stat-label{
+    font-size: 0.9em;
+    color: #999;
+    font-weight: 300;
+    padding-left: 1em;
+}

@@ -1,0 +1,41 @@
+.location{
+    width: 100%;
+    max-width: 27em;
+    background-color: #062127;
+    padding: 1em 1.5em;
+    border-radius: 0.8em;
+    box-shadow: 0.2em 0.2em 0.6em #0005;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location__name{
+    text-align: center;
+    color: rgb(59, 122, 29);
+    margin-bottom: 0.5em;
+}
+
+.location__info{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.location__item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    align-items: center;
+}
+
+.location__label{
+    color: rgb(185, 182, 182);
+    font-weight: 300;
+}
+
+.location__value{
+    font-weight: 700;
+    color: white;
+}
