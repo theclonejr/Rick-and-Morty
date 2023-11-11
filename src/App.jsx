@@ -49,6 +49,9 @@ function App() {
           </div>
         </>
       )}
+      <div className="credits">
+        <p>Developed by Wences Reyes</p>
+      </div>
     </div>
   );
 }

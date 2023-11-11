@@ -55,3 +55,17 @@
     gap: 2em;
     justify-content: center;
 }
+
+.credits{
+    display: flex;
+    justify-content: center;
+}
+
+.credits>p{
+    
+    color: rgb(105, 105, 105);
+    bottom: 0;
+    margin: auto;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
