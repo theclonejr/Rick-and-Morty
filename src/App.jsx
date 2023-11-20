@@ -43,7 +43,7 @@ function App() {
         <>
           <InfoLocation location={location} />
           <div className="app__card-container">
-            {location?.residents.map((url) => (
+            {location?.residents?.map((url) => (
               <CardResidents key={url} url={url} />
             ))}
           </div>
